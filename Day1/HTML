@@ -1,0 +1,68 @@
+Introduction to HTML
+
+What is HTML?
+
+HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It provides a way to describe the structure of content on a web page using various tags and elements.
+
+Basic Structure of an HTML Document
+
+An HTML document is structured using several essential elements:
+
+- <!DOCTYPE> Declaration: This declaration specifies the HTML version being used. For HTML5, the declaration is <!DOCTYPE html>.
+- <html> Element: The root element that wraps all content on the web page.
+- <head> Element: Contains meta-information about the document, such as the title (<title>), character encoding (<meta charset="utf-8">), and links to external resources like stylesheets (<link>).
+- <body> Element: Contains the main content of the web page, including text, images, links, forms, and other elements visible to users.
+
+Adding Headings, Paragraphs, and Line Breaks
+
+- Headings (<h1> to <h6>): HTML provides six levels of headings, <h1> being the most important (often used for main headings) and <h6> being the least important (used for subheadings or minor sections).
+
+Example:
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+
+
+- Paragraphs (<p>): Used to structure blocks of text. Each <p> tag defines a new paragraph.
+
+Example:
+<p>This is a paragraph of text.</p>
+<p>Another paragraph follows.</p>
+- Line Breaks (<br>): Inserts a line break within text, useful for breaking lines without creating a new paragraph.
+
+Example:
+This is a line.<br>
+This is another line.
+Example HTML Document Structure
+
+Putting it all together, a basic HTML document might look like this:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    
+    <p>This is a paragraph introducing the page.</p>
+    
+    <h2>Section One</h2>
+    <p>This is another paragraph in section one.</p>
+    
+    <h2>Section Two</h2>
+    <p>This is a paragraph in section two.</p>
+    
+    <p>Two lines of text.<br>
+    Line two.</p>
+</body>
+</html>
+Explanation
+
+- <!DOCTYPE html>: Declares the document type and version of HTML being used.
+- <html>: Root element wrapping the entire document.
+- <head>: Contains meta-information and links to external resources.
+- <body>: Contains visible content like headings, paragraphs, and line breaks.
+
+This structure forms the foundation of every HTML document, providing the basic framework to create web pages that are structured, readable, and accessible to users and web browsers alike.
